@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { loginSuccess, loginFailure } from '../../actions/authActions2';
+import './style.css';
 
 const Login = ({ isAuthenticated, loginSuccess, loginFailure }) => {
 
